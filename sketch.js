@@ -1,7 +1,7 @@
 const g = -9.8; //gravity (m/s)
 const dt = 0.0002; //time step
 const ar = 100; //air resistance
-const s = 0.3;
+const s = 0.3; //Scale
 
 let pendulums = [];
 
