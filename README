@@ -1,0 +1,3 @@
+This is a simulation of a pendulum with a moving origin, the goal being to keep the pendulum above the horizontal line for the longest time.
+
+Clicking and dragging will move the origin.
