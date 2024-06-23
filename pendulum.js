@@ -39,7 +39,7 @@ class Pendulum {
     }
 
     //Pendulum movement
-    let totalVel = this.vel + this.oVel;
+    let totalVel = this.vel*this.r + this.oVel;
     this.acc = -cos(this.a) * this.oAcc / this.r + //Acceleration due to movement of origin
                (g * sin(this.a) - //Acceleration due to gravity
                ar * totalVel * abs(totalVel) / this.m / sq(this.r)) * dt; //Acceleration due to air resistance
